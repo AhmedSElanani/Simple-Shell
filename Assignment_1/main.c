@@ -247,7 +247,7 @@ int execute_cmd(char **args)
                     chdir(getenv("HOME"));
 
                     //  Update the Current directory
-                    *current_directory = NULL ;                 //  We made it this way to look like Ubuntu Terminal
+                    *current_directory = '\0' ;                 //  We made it this way to look like Ubuntu Terminal
 
                  }
 
@@ -399,7 +399,7 @@ void shorten_current_directory(void)
     }
 
     // Add Null at the end of the directory String
-    current_directory[j] = NULL;
+    current_directory[j] = '\0';
 
 }
 
