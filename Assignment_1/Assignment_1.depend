@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1585515602 source:c:\users\ahmed\desktop\os assignment\code\assignment_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/types.h>
+
+1585515602 .h>
+
+1585826977 source:/home/salah/Desktop/Assignment_1/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<sys/wait.h>
+
